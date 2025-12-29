@@ -1,4 +1,4 @@
-### Dtaset Link : https://www.kaggle.com/datasets/shrutimechlearn/churn-modelling
+### Dataset Link : https://www.kaggle.com/datasets/shrutimechlearn/churn-modelling
 
 ## 🏦 Bank Customer Churn Prediction 
 ______________________________________
