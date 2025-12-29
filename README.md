@@ -68,7 +68,7 @@ These features helped capture hidden relationships in customer behavior.
 
 ##  Handling Imbalanced Data
 
- ![Churn Customer Distribution](assets/ChurnCustomerDistribution.jpeg)
+ ![Churn Customer Distribution](Assests/ChurnCustomerDistribution.jpeg)
 
 
 > The dataset was highly imbalanced.
@@ -119,12 +119,12 @@ XGBoost                   89.6%
 
 #### 📉 Confusion Matrix
 
-![Confusion Matrix](assets/churn_ConfusionMatrix.jpeg)
+![Confusion Matrix](Assests/churn_ConfusionMatrix.jpeg)
 
 
 #### ROC Curve
 
- ![ROC Curve](assets/ChurnRocCurve.jpeg)
+ ![ROC Curve](Assests/ChurnRocCurve.jpeg)
 
 
 (All plots generated using Matplotlib & Seaborn)
