@@ -127,8 +127,8 @@ These features helped capture hidden relationships in customer behavior.
 (All plots generated using Matplotlib & Seaborn)
 
 
-#  Installation
-________________________
+#  Installation and Usage
+___________________________
 
 Step 1 .  Clone Repo
 
