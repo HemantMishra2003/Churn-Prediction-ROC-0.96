@@ -50,7 +50,7 @@ Key insights discovered from EDA:
 ### To improve predictive performance, multiple engineered features were created:
 
 > Log & Sqrt Transformations
-> 
+ 
        Log_Balance
        Log_Age
        Sqrt_EstimatedSalary
@@ -67,7 +67,8 @@ Key insights discovered from EDA:
 These features helped capture hidden relationships in customer behavior.
 
 ##  Handling Imbalanced Data
-![Churn Customer Distribution](ChurnCustomerDistribution.jpeg)
+
+ ![Churn Customer Distribution](ChurnCustomerDistribution.jpeg)
 
 
 > The dataset was highly imbalanced.
@@ -118,12 +119,12 @@ XGBoost                   89.6%
 
 #### 📉 Confusion Matrix
 
-![Confusion Matrix](churn_ConfusionMatrix.jpeg)
+ ![Confusion Matrix](churn_ConfusionMatrix.jpeg)
 
 
 #### ROC Curve
 
-![ROC Curve](ChurnRocCurve.jpeg)
+ ![ROC Curve](ChurnRocCurve.jpeg)
 
 
 (All plots generated using Matplotlib & Seaborn)
