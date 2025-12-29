@@ -120,8 +120,58 @@ Cohen’s Kappa Score
 
 (All plots generated using Matplotlib & Seaborn)
 
+#  Installation
+________________________
 
+Step 1 .  Clone Repo
 
+    git clone https://github.com/HemantMishra2003/Churn-Prediction-ROC-0.96.git
+    cd Churn-Prediction-ROC-0.96
+    
+Step 2.  Activate Virtual Environment
+
+      venv\Scripts\activate
+      
+Step 3: Install Required Packages
+
+    pip install -r requirements.txt
+    
+Step 4: Use my Catboost Trained Model
+
+      catboost_cat_model.pkl 
+      to make prediction 
+       
+Step 5 : Takes Dataset  from given upper link 
+        > Takes input from there.
+        
+atep 6 : Make Prediction (Example)
+
+     import joblib
+     model = joblib.load("catboost_cat_model.pkl")
+
+    sample_input = [[
+    600, "France", "Female", 40, 3,
+    60000, 2, 1, 1, 50000
+    ]]
+
+    prediction = model.predict(sample_input)
+    print("Churn Prediction:", prediction)
+
+# How can you Contribute : 
+
+> If you would like to contribute to this Project, 
+> please follow these steps:
+
+    Fork the repository.
+    Create a New Branch for your feature or fix.
+    Make your changes with clear and meaningful commits.
+    Submit a Pull Request describing your changes.
+    
+     Suggestions for improvements, bug fixes,
+        documentation enhancements, and 
+      feature ideas are always welcome.
+
+    
 
 
   
