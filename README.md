@@ -64,6 +64,8 @@ Key insights discovered from EDA:
 These features helped capture hidden relationships in customer behavior.
 
 ##  Handling Imbalanced Data
+![Churn Customer Distribution](ChurnCustomerDistribution.jpeg)
+
 
 > The dataset was highly imbalanced.
 > To solve this:
@@ -78,7 +80,7 @@ These features helped capture hidden relationships in customer behavior.
 
 Model	                 Accuracy
 
-CatBoost (Final Model)	  90.4% ⭐
+CatBoost (Final Model)	  90.4% 
 
 Logistic  Regression	  81.4%
 
@@ -94,15 +96,15 @@ XGBoost                   89.6%
 
 ## Evaluation Metrics
 
-
-Metric   	    Value
-
-Accuracy	     90.41%
-Precision	     92.01%
-Recall	         87.49%
-F1-Score	     89.70%
-ROC-AUC	         0.96
-Cohen’s Kappa	 0.808
+| Metric        | Value |
+|--------------|-------|
+| **Model**     | CatBoost |
+| Accuracy     | 0.9041 |
+| Precision    | 0.9201 |
+| Recall       | 0.8749 |
+| F1-score     | 0.8970 |
+| ROC AUC      | **0.96** |
+| Kappa Score  | 0.808 |
 
      ✔ High precision → fewer false churn alarms
      ✔ Strong recall → churn customers correctly identified
@@ -110,15 +112,19 @@ Cohen’s Kappa	 0.808
 
 ### Model Evaluation Visuals
 
-Confusion Matrix
 
-ROC Curve
+#### 📉 Confusion Matrix
 
-Classification Report
+![Confusion Matrix](churn_ConfusionMatrix.jpeg)
 
-Cohen’s Kappa Score
+
+#### ROC Curve
+
+![ROC Curve](ChurnRocCurve.jpeg)
+
 
 (All plots generated using Matplotlib & Seaborn)
+
 
 #  Installation
 ________________________
