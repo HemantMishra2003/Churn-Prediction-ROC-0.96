@@ -82,15 +82,12 @@ These features helped capture hidden relationships in customer behavior.
 
 > Multiple ML models were trained and compared:
 
-Model	                 Accuracy
-
-CatBoost (Final Model)	  90.4% 
-
-Logistic  Regression	  81.4%
-
-Random Forest	          87.4%
-
-XGBoost                   89.6%
+| Model                     | Accuracy |
+|---------------------------|----------|
+| **CatBoost (Final Model)** | **90.4%** |
+| Logistic Regression        | 81.4% |
+| Random Forest              | 87.4% |
+| XGBoost                    | 89.6% |
 
 **Final Model: CatBoost Classifier**
 
