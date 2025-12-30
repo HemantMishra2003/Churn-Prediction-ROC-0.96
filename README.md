@@ -46,7 +46,7 @@ Key insights discovered from EDA:
 🔹 Customers with low engagement (inactive members) have higher churn risk
 
 ## ⚙️ Feature Engineering
-![Heatmap Correlation Matrix]Assests/HeatMap_Corelation_Matrix.jpeg)
+![Heatmap Correlation Matrix](Assests/HeatMap_Corelation_Matrix.jpeg)
 
 
 - To improve predictive performance,
