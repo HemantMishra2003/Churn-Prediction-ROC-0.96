@@ -171,14 +171,14 @@ atep 6 : Make Prediction (Example)
 > If you would like to contribute to this Project, 
 > please follow these steps:
 
-    Fork the repository.
-    Create a New Branch for your feature or fix.
-    Make your changes with clear and meaningful commits.
-    Submit a Pull Request describing your changes.
+    1. Fork the repository.
+    2. Create a New Branch for your feature or fix.
+    3. Make your changes with clear and meaningful commits.
+    4. Submit a Pull Request describing your changes.
     
-     Suggestions for improvements, bug fixes,
-         documentation enhancements, and 
-         feature ideas are always welcome.
+- Suggestions for improvements, bug fixes,
+-         documentation enhancements, and 
+-         feature ideas are always welcome.
 
     
 
